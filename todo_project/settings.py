@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'your-old-key-as-fallback')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['luvchau.pythonanywhere.com', '.pythonanywhere.com']
 
 # Application definition
 
